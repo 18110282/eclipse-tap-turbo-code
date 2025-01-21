@@ -27,7 +27,7 @@ javascript: (function () {
         count++;
         console.log(`Clicked ${count} times at (${x}, ${y})`);
         if (count < number + extraClicks) {
-          setTimeout(click, Math.random() * 100 + 200);
+          setTimeout(click, Math.random() * 100 + 1000);
         } else {
           console.log(
             `Completed ${number + extraClicks} clicks. Reloading page...`
