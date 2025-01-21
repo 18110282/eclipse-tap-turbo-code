@@ -2,8 +2,8 @@ const centerX = window.innerWidth * 35 / 100;
 const centerY = window.innerHeight / 2;
 let xMin = centerX - (centerX * 25 / 100),
     xMax = centerX + (centerX * 25 / 100),
-    yMin = centerY - (centerY * 15 / 100),
-    yMax = centerY + (centerY * 15 / 100);
+    yMin = centerY - (centerY * 20 / 100),
+    yMax = centerY + (centerY * 20 / 100);
 	
 const getRandomInRange = (min, max) => Math.random() * (max - min) + min;
 
